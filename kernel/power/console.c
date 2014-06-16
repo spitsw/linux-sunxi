@@ -25,6 +25,7 @@ int pm_prepare_console(void)
 #endif
 	return 0;
 }
+EXPORT_SYMBOL_GPL(pm_prepare_console);
 
 void pm_restore_console(void)
 {
@@ -35,3 +36,4 @@ void pm_restore_console(void)
 	}
 #endif
 }
+EXPORT_SYMBOL_GPL(pm_restore_console);
